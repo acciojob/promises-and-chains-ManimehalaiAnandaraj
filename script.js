@@ -18,9 +18,9 @@ document.getElementById('myForm').addEventListener('submit',function (event) {
 			reject();
 		}
 	}).then(() => {
-		alert('Welcome, . You can vote.');
+		alert('Welcome,'+name+ '.You can vote.');
 	}).catch(() =>{
-		alert('Oh sorry . You aren't old enough.')
+		alert('Oh sorry' +name+''. You aren't old enough.')
 	});
 	
 });
