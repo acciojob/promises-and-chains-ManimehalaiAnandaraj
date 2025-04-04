@@ -10,8 +10,8 @@ document.getElementById('myForm').addEventListener('submit',function (event) {
 		return;
 	}
 	new Promise((resolve,reject) => {
-		
-			setTimeout(() =>{
+	
+			setTimeout(() => {
 				
 				if(age >= 18)
 				resolve('Welcome,'+name+ '.You can vote.');
@@ -24,4 +24,4 @@ document.getElementById('myForm').addEventListener('submit',function (event) {
 })
 .then(message => alert(message));
 .catch(message => alert(message));
-});
+}
