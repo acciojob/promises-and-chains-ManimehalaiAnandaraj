@@ -22,6 +22,6 @@ document.getElementById('myForm').addEventListener('submit',function (event) {
 		}
 	},4000);
 })
-.then(message => alert(message));
+.then(message => alert(message))
 .catch(message => alert(message));
-}
+});
